@@ -15,5 +15,5 @@ output "website_url" {
 
 output "network_name_choisi" {
   description = "Nom du réseau choisi dans la variable"
-  value = var.network_name
+  value       = var.network_name
 }
