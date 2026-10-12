@@ -12,3 +12,8 @@ output "website_url" {
   description = "URL du serveur Web local"
   value       = "http://localhost:${var.external_port}"
 }
+
+output "network_name_choisi" {
+  description = "Nom du réseau choisi dans la variable"
+  value       = var.network_name
+}
